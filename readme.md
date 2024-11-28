@@ -95,3 +95,6 @@ From the start state, the value is `-9.2`. Again, the path dips down before usin
 - The Sarsa learning for especially the standard moves can be fickle. This may be due to the exploration parameter $\epsilon$. But in general I noticed similar optimal policies being converged to, but not one specific one.
 - On the other hand, the shorter paths with King's move tend to converge more quickly.
 - I tried to do this with OpenAI gym in a docker container, but couldn’t figure out how to get the graphics working with XQuartz, etc.
+
+## References
+Sutton and Barto, Chapter 6, *Temporal-Difference Learning*
